@@ -1,0 +1,9 @@
+instalar aplicação docker
+instalar imagens
+configurar
+sudo apt-get install docker
+sudo apt-get update
+
+
+
+ubuntu 18

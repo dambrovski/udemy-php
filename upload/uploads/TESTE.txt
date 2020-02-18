@@ -1,0 +1,2 @@
+flask - mobile py / framework / ninja (for)
+mysql alchemy
