@@ -27,5 +27,13 @@ $tpl->assign( "version", PHP_VERSION);
 // draw the template
 $tpl->draw( "index" );
 
+$produtos = array(
+    array("nome" => "Sabão em Pó", "quantidade" => 15),
+    array("nome" => "Escova de Dente", "quantidade" => 53),
+    array("nome" => "Creme Dental", "quantidade" => 37)
+);
+
+    // Listando os produtos
+
 
 ?>
