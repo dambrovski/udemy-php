@@ -102,7 +102,7 @@ class User extends Model{
             //INSERT INTO NOME_DA_TABELA (CAMPOS_QUE_DESEJA_INSERIR_DADOS) VALUES (VALORES_DOS_CAMPOS)
         }
 
-        public function get($iduser){
+        public function getUser($iduser){
 
             $sql = new Sql();
             $results = $sql->select("SELECT * FROM tb_users a INNER JOIN tb_persons b USING(idperson) WHERE a.iduser = :iduser", array(
